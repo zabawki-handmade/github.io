@@ -1,0 +1,61 @@
+body{
+	font-family: Arial, Verdana, sans-serif;
+}
+@media (max-width: 576px) {
+.image-main{
+	height: 40vh !important;
+}
+.fa-volleyball-ball {
+	display: none !important;
+}
+#navbar-bottom {
+	display: none !important;
+}
+.about-text{
+	font-size: 1.5rem;
+}
+.r666{
+	position: fixed;
+    z-index: 100;
+    top: 0;
+	left:0;
+	right:0;
+}
+body {
+	margin-top: 50px;
+}
+}
+.image-main{
+	background-image: url("img/hero3.jpg");
+	background: radial-gradient(circle, rgba(237,240,46,1) 0%, rgba(239,249,250,1) 43%, rgba(237,240,46,1) 100%);
+	height: 65vh;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	padding-top: 15%; 
+}
+.toys, .accordion{
+	padding-top: 3%; 
+	padding-bottom: 3%;
+}
+.bg{
+	background-image: url("img/bg.jpg");
+	background-size: cover;
+	background: linear-gradient(90deg, rgba(239,250,247,1) 0%, rgba(239,249,250,1) 43%, rgba(239,250,247,1) 100%);
+}
+
+h4{
+	padding-bottom: 25px;
+	padding-top: 20px;
+}
+.credo>div{
+	padding-bottom: 25px;
+}
+.gradient{
+	padding-top: 40px;
+	background: radial-gradient(40% 50%, #e64712, #ff6f00);
+}
+.nav-link, .fa-volleyball-ball {
+	color: #ff6f00 !important;
+}
